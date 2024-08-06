@@ -83,8 +83,12 @@ table {
   display: none;
 }
 
-.menusub{
+.menusub {
   display: flex;
   display: none;
 }
 
+.storesub {
+  display: flex;
+  display: none;
+}

@@ -79,6 +79,12 @@ table {
 }
 
 .coffeesub {
+  display: flex;
+  display: none;
+}
+
+.menusub{
+  display: flex;
   display: none;
 }
 

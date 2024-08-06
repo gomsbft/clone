@@ -47,48 +47,17 @@ table {
 	border-spacing: 0;
 }
 
-
-
 .header {
-  line-height: 16px;
-  padding: 30px;
-  width: 1222.5px;
-  height: 120px;
-  position: relative;
-}
-
-
-.top-logo {
-  position: absolute;
-}
-
-.top-my-list {
-  display: flex;
-  gap: 30px;
-  justify-content: right;
-  color: rgb(85, 85, 85);
-  font-size: 13px;
-}
-
-.top-menu-list {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
-  gap: 40px;
-  color: rgb(51, 51, 51);
 }
 
-.coffeesub {
+.inner {
+  position: relative;
   display: flex;
-  display: none;
+  border: 1px solid blue;
+  width: 1000px;
+  height: 120px;
 }
 
-.menusub {
-  display: flex;
-  display: none;
-}
 
-.storesub {
-  display: flex;
-  display: none;
-}

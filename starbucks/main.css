@@ -22,7 +22,6 @@ img {
 	margin: 0 auto;
 	position: relative;
 }
-
 /*BUTTON*/
 .btn {
 	width: 130px;
@@ -74,6 +73,15 @@ img {
 	color: #333;
 	background-color: #fff;
 }
+.btn.btn--white--reverse {
+	background-color: white;
+	border-color: #fff;
+}
+.btn.btn--white--reverse:hover {
+	color: white;
+	
+}
+
 
 /*BACK TO POSITION*/
 .back-to-position {
@@ -114,6 +122,7 @@ header {
 }
 header > .inner {
 	height: 120px;
+	display: block;
 }
 header .logo {
 	height: 75px;
@@ -261,99 +270,228 @@ header .main-menu .item .item__contents .contents__texture p {
 	color: #64a70b;
 	margin: 4px 0 14px;
 }
+header .tablet_gnb{
+	background: #f6f5ef;
+	border-bottom: 1px solid #e5e5e5;
+	height: 69px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;  
+	align-items: center;
+}
+header .tablet_gnb .s_logo{
+	margin-left: 15px;
+}
+header .tablet_gnb .s_logo a {
+	background: url("../images/logo.png") no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	width: 45px;
+	height: 45px;
+	left: 18px; 
+	text-indent: -999999px;
+	display: inline-block;
+}
+header .tablet_gnb .tablet_gnb_right{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .tablet_gnb .tablet_gnb_right ul{
+	display: flex;
+}
+header .tablet_gnb .tablet_gnb_right .tablet_gnb_sub_login{
+	background: url("../images/icon_user_m.png")no-repeat;
+	background-size: 25px 30px;
+	background-position: center center;
+	width: 60px;
+	height: 60px;
+	text-indent: -999999px;
+}
+header .tablet_gnb .tablet_gnb_right .tablet_gnb_sub_map{
+	background: url("../images/icon_spot_m.png")no-repeat;
+	background-size: 24px 32px;
+	background-position: center center;
+	width: 60px;
+	height: 60px;
+	text-indent: -999999px;
+}
+header .tablet_gnb .tablet_gnb_right .tablet_gnb_sub_menu{
+	background: url("../images/btn_berger_m.png")no-repeat;
+	background-size: 28px 26px;
+	background-position: center center;
+	width: 60px;
+	height: 60px;
+	text-indent: -999999px;
+}
+/*visual*/
+.main-visual-wrap{
+	width: 100%;
+	background: url("./img/fullmain.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 32vw;
+	margin-top: 121px;
+}
+.main-visual-inner{
+	position: relative;
+	height: 100%;
+}
+.main-visual-inner img{
+	width: 100%;
+}
+.main-visual-slogan{
+	position:absolute;
+	top: 19.5%;
+	left: 16.4%;
+	width: 13.1%;
+}
+.btn-slogan{
+	position: absolute;
+	top: 23.9vw;
+	left: 11.6%;
+	text-align: center;
+	width: 22.76%;
+	display: flex;
+	justify-content: center;
+}
+.btn-slogan a{
+	width: 35%;
+	text-align: center;
+}
+.main-visual-set .set1{
+	position: absolute;
+	top: 4.85vw;
+	left: 35.45vw;
+	width: 13.6vw;
+}
+.main-visual-set .set2{
+	position: absolute;
+	top: 6vw;
+	left: 44.65vw;
+	width: 14.1vw;
+}
+.main-visual-set .set3{
+	position: absolute;
+	top: 4.85vw;
+	right: 30.45vw;
+	width: 13.4vw;
+}
+.main-visual-set .set4{
+	position: absolute;
+	top: 7.05vw;
+	right: 14vw;
+	width: 19.95vw;
+}
 
-.top-bar {
+
+
+/*스타벅스 리워드*/
+/*Rewards*/
+.sbRewards {
+background-color: #1e3932;
+color: white;
+}
+.sbRewards .inner {
+padding: 25px;
+display: flex;
+font-size:14px;
+}
+.sbRewards .inner .rewards-left {
+margin: 0;
+width: 25%;
+text-align: center;
+margin-right: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sbRewards .inner .rewards-left img{
+width: 176px;
+text-align: center;
+}
+.sbRewards .inner .rewards-right {
+width: 70%;
+letter-spacing: -1px;
+}
+.sbRewards .inner .rewards-right .text-top {
+border-bottom: 1px solid #fff;
+padding: 20px 0;
+line-height: 1.4;
+position: relative;
+}
+
+.sbRewards .inner .rewards-right .text-top .rewards_text h2 {
+font-size: 26px;
+margin-bottom: 12px;
+font-weight: 600;
+}
+.sbRewards .inner .rewards-right .btn_signin_wrap {
+display: flex;
+position: absolute;
+right: 0;
+bottom: 20px;
+font-size: 14px;
+}
+.sbRewards .inner .rewards-right .btn_signin_wrap a{
+font-size: 12px;
+width: 95px;
+}
+.sbRewards .inner .rewards-right .btn_signin_wrap a.mgleft{
+margin-left:3px;
+}
+.sbRewards .inner .rewards-right .btn_egift_wrap{
+width: 193px;
+position: absolute;
+right: 0;
+top: 20px;  
+}
+
+.sbRewards .inner .rewards-right .btn_egift_wrap a{
+width: 100%;
+font-size: 12px;
+}
+
+.sbRewards .inner .rewards-right .text-bottom {
+padding: 20px 0;
+line-height: 1.4;
+position: relative;
+}
+.sbRewards .inner .rewards-right .text-bottom p {
+font-size: 14px;
+}
+
+@media screen and (max-width: 1200px){
+.btn-slogan a{
+	width: 128px;
+}
+}
+@media screen and (min-width: 961px){
+header > .inner {
+		display: block;
+}
+header .tablet_gnb{
 	display: none;
 }
-
-.top-logo-bar {
-	position: absolute;
-	height: 45px;
-	left: 10px;
-	top: 13px;
-	width: 45px;
 }
-
-.main-warp {
-	background-image: url(./img/fullmain.jpg);
-	height: 32vw;
-	margin-top: 120px;
-	background-position: center;
-	/* background-repeat: no-repeat; */
-	/* background-size: cover; */
+@media screen and (min-width: 641px) and (max-width: 960px) {
+header > .inner {
+		display: none;
 }
-
-.main-inner {
-	position: relative;
+.main-visual-wrap{
+	margin-top: 70px;
 }
-
-.main-visual {
-	position: absolute;
-	margin-left: 150px;
-	margin-top: 50px;
-	width: 150px;
-	height: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 20px;
 }
-
-.main-visual > img {
-	width: 100%;
+@media screen and (min-width: 481px) and (max-width: 640px) {
+header > .inner {
+		display: none;
 }
-
-.main-btn {
-	background-color:transparent;
-	color: #036243;
-	border: 2px solid #036243;
-	border-radius: 3px;
-	height: 30px;
-	transition: 0.3s;
 }
-
-.main-btn:hover {
-	background-color: #036243;
-	color: white;
-	text-decoration: underline;
+@media screen and (max-width: 480px) {
+header > .inner {
+		display: none;
 }
-
-.main-beverage1 {
-	position: absolute;
-	width: 150px;
-	margin: 50px 400px;
-}
-
-.main-beverage1 > img {
-	width: 100%;
-}
-
-.main-beverage2 {
-	position: absolute;
-	width: 150px;
-	margin: 50px 520px;
-}
-
-.main-beverage2 > img {
-	width: 100%;
-}
-
-.main-beverage3 {
-	position: absolute;
-	width: 150px;
-	margin: 50px 650px;
-}
-
-.main-beverage3 > img {
-	width: 100%;
-}
-
-.main-beverage4 {
-	position: absolute;
-	width: 230px;
-	margin: 50px 770px;
-}
-
-.main-beverage4 > img {
-	width: 100%;
 }

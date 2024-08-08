@@ -261,3 +261,99 @@ header .main-menu .item .item__contents .contents__texture p {
 	color: #64a70b;
 	margin: 4px 0 14px;
 }
+
+.top-bar {
+	display: none;
+}
+
+.top-logo-bar {
+	position: absolute;
+	height: 45px;
+	left: 10px;
+	top: 13px;
+	width: 45px;
+}
+
+.main-warp {
+	background-image: url(./img/fullmain.jpg);
+	height: 32vw;
+	margin-top: 120px;
+	background-position: center;
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+}
+
+.main-inner {
+	position: relative;
+}
+
+.main-visual {
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 50px;
+	width: 150px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+}
+
+.main-visual > img {
+	width: 100%;
+}
+
+.main-btn {
+	background-color:transparent;
+	color: #036243;
+	border: 2px solid #036243;
+	border-radius: 3px;
+	height: 30px;
+	transition: 0.3s;
+}
+
+.main-btn:hover {
+	background-color: #036243;
+	color: white;
+	text-decoration: underline;
+}
+
+.main-beverage1 {
+	position: absolute;
+	width: 150px;
+	margin: 50px 400px;
+}
+
+.main-beverage1 > img {
+	width: 100%;
+}
+
+.main-beverage2 {
+	position: absolute;
+	width: 150px;
+	margin: 50px 520px;
+}
+
+.main-beverage2 > img {
+	width: 100%;
+}
+
+.main-beverage3 {
+	position: absolute;
+	width: 150px;
+	margin: 50px 650px;
+}
+
+.main-beverage3 > img {
+	width: 100%;
+}
+
+.main-beverage4 {
+	position: absolute;
+	width: 230px;
+	margin: 50px 770px;
+}
+
+.main-beverage4 > img {
+	width: 100%;
+}

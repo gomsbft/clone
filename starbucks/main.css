@@ -286,7 +286,7 @@ header .tablet_gnb .s_logo{
 	margin-left: 15px;
 }
 header .tablet_gnb .s_logo a {
-	background: url("../images/logo.png") no-repeat;
+	background: url("./img/logo.png") no-repeat;
 	background-position: center center;
 	background-size: 100%;
 	width: 45px;

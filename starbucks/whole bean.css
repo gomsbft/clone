@@ -1,0 +1,114 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.bean-inner {
+  position: relative;
+}
+
+.bean-content {
+  overflow: hidden;
+  height: 43vw;
+  background: url(./img/25th_summer_bean_bg.jpg);
+  background-size: 115%;
+}
+
+.bean-img-box {
+  width: 29%;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bean-img-box > img {
+  width: 100%;
+}
+
+.bean-txt {
+  position: absolute;
+  right: 9.5%;
+  width: 40%;
+  top: 20%;
+}
+
+.bean-txt > img {
+  width: 100%;
+}
+
+.bean-btn {
+  margin-top: 34px;
+  width: 125px;
+  height: 38px;
+}
+
+.bean-btn > button {
+  color: #282119;
+  border: 2px solid #282119;
+  width: 100%;
+  height: 100%;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.bean-btn > button:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+  transform: translate(1.5s);
+}
+
+.coffee-content {
+  position: relative;
+  height: 335px;
+  overflow: hidden;
+  background: url(/starbucks/img/240521_pc_reserve_bg_1.jpg);
+  background-size: cover;
+}

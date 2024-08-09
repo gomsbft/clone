@@ -154,3 +154,81 @@ table {
   border-radius: 5px;
   background: transparent;
 }
+
+.coffee-btn > button:hover {
+  color: white;
+  background-color: #B87643;
+  text-decoration: underline;
+}
+
+.pick-content {
+  position: relative;
+  background: url(/starbucks/img/2024_august_pick_bg.jpg) center center fixed no-repeat #45434c;
+  background-size: auto 87%;
+  height: 800px;
+  background-position: bottom;
+}
+
+.pick-img-box {
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  width: 48.5vw;
+  height: 30.8vw;
+  background-image: url(/starbucks/img/2024_august_pick_img.png);
+  background-size: 100% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 7;
+}
+
+.pick-txt-img {
+  background: url(/starbucks/img/fav_prod_txt01.png) no-repeat;
+  left: 200px;
+  top: 170px;
+  height: 204px;
+  position: absolute;
+  overflow: hidden;
+  width: 258px;
+  text-indent: -20000px;
+}
+
+.pick-txt {
+  background: url(/starbucks/img/fav_prod_txt02.png) no-repeat;
+  left: 92px;
+  top: 420px;
+  height: 156px;
+  position: absolute;
+  overflow: hidden;
+  width: 362px;
+
+}
+
+.pick-button {
+  top: 600px;
+  width: 125px;
+  height: 38px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  left: 328px;
+  position: absolute;
+}
+
+.pick-button > button {
+  font-size: 15px;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 34px;
+  background: transparent;
+}
+
+.pick-button > button:hover {
+  background-color: #fff;
+  color: black;
+  text-decoration: underline;
+}

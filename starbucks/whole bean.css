@@ -47,20 +47,18 @@ table {
 	border-spacing: 0;
 }
 
-.bean-inner {
-  position: relative;
-}
-
 .bean-content {
+  position: relative;
   overflow: hidden;
   height: 43vw;
   background: url(./img/25th_summer_bean_bg.jpg);
-  background-size: 115%;
+  background-size: cover;
+  background-position: center center;
 }
 
 .bean-img-box {
-  width: 29%;
   position: absolute;
+  width: 29%;
   left: 20%;
   top: 50%;
   transform: translateY(-50%);
@@ -107,8 +105,52 @@ table {
 
 .coffee-content {
   position: relative;
-  height: 335px;
+  height: 400px;
   overflow: hidden;
-  background: url(/starbucks/img/240521_pc_reserve_bg_1.jpg);
+  background: url(/starbucks/img/240521_pc_reserve_bg_1.jpg) no-repeat center top;
   background-size: cover;
+}
+
+.coffee-img-box {
+  position: absolute;
+  width: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10%;
+}
+
+.coffee-img-box > img {
+  width: 100%;
+}
+
+.coffee-txt-img {
+  position: absolute;
+  width: 400px;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+}
+
+.coffee-txt-img > img {
+  width: 100%;
+}
+
+.coffee-btn {
+  position: absolute;
+  margin-top: 34px;
+  width: 125px;
+  height: 38px;
+  left: 30%;
+  bottom: 15%;
+}
+
+.coffee-btn > button {
+  color: #B87643;
+  border: 2px solid #B87643;
+  width: 100%;
+  height: 100%;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 5px;
+  background: transparent;
 }
